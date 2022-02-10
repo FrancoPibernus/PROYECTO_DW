@@ -47,8 +47,7 @@ nav ul li:hover ul {
 .main__h1 {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  color: #2e765e;
-  font-size: 2.5rem; }
+  color: #2e765e; }
 
 /*/H1 INDEX*/
 /*H2 INDEX*/
@@ -56,7 +55,6 @@ nav ul li:hover ul {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: #2e765e;
-  font-size: 1.25rem;
   margin-top: 30px; }
 
 /*/H2 INDEX*/
