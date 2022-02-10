@@ -1,0 +1,28 @@
+.header__fondo{
+    background-color: #2e765e;
+}
+
+/*NAVBAR INDEX*/
+.header__logo{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.header__logo:hover{
+    
+    transform: scale(1.1);
+    transition: 0.09s;
+}
+nav ul li ul{
+    display: none;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+/*/NAVBAR INDEX*/

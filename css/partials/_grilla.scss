@@ -1,0 +1,22 @@
+#grilla{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+    ;
+}
+
+section#header{
+    grid-area: header;
+}
+
+section#main{
+    grid-area: main;
+}
+
+section#footer{
+    grid-area: footer;
+}

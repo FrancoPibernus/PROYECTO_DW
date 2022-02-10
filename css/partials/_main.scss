@@ -1,0 +1,81 @@
+.main__fondo{
+    background-color: #71cfc4;
+}
+/*H1 INDEX*/
+.main__h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #2e765e;
+    font-size: 2.5rem;
+}
+/*/H1 INDEX*/
+
+
+/*H2 INDEX*/
+.main__h2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #2e765e;
+    font-size: 1.25rem;
+    margin-top: 30px;
+}
+/*/H2 INDEX*/
+
+/*PINDEX*/
+.main__p{
+    text-align: center;
+    margin-top: 10px;
+}
+/*/PINDEX*/
+
+/*IFRAMES INDEX*/
+.main__video{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.main__mapa{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/*/IFRAMES INDEX*/
+
+
+/*FORMULARIO INDEX*/
+
+.main__h3{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main__form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px auto 60px auto;
+}
+.formIndex{
+    background-color: darkgrey;
+    text-align: center;
+    padding: 1rem;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.formTexto{
+    width: 100%;
+}
+
+/*GRILLA GALERIA*/
+.grillaImg{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(2, auto);
+    }
+/*/GRILLA GALERIA*/

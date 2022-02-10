@@ -1,0 +1,33 @@
+.footer{
+    font-style: italic;
+    font-size: 1.25rem;
+    background-color: #2e765e;
+    padding: 10px 20px 20px 20px;
+    .footer__contacto{
+        display: flex;
+        flex-direction:row-reverse;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        align-content: space-around;
+        margin: 0 95px 10px 0;
+    }
+    .footer__redes{
+        display: flex;
+        flex-direction:row-reverse;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        align-content: space-around;
+    }
+}
+
+$redes:(
+    Instagram: #8134AF,
+    Facebook: #3B5998,
+    Whatsapp: #00BB2D
+);
+
+@each $red, $color in redes{
+    .contacto--#{$red}{
+        background-color: $color;
+    }
+}

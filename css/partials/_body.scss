@@ -1,0 +1,6 @@
+.grillaIndex{
+    display: grid;
+    height: auto;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: 1fr;
+}
