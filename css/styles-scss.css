@@ -149,6 +149,8 @@ section#footer {
 /*/*GRILLA*/
 /*MEDIA QUERYS*/
 @media only screen and (min-width: 320px) {
+  .main__p {
+    margin: auto; }
   .formIndex {
     width: 90%;
     background-color: blueviolet; }
