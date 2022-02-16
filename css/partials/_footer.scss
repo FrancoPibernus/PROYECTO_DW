@@ -20,13 +20,3 @@
     }
 }
 
-$redes:(
-    Instagram: #8134AF,
-    Facebook: #3B5998,
-    Whatsapp: #00BB2D
-);
-@each $red, $color in redes{
-    .contacto--#{$red}{
-        background-color: $color;
-    }
-}
