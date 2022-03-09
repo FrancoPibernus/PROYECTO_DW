@@ -1,21 +1,19 @@
 .main__fondo{
-    background-color: #71cfc4;
+    background-color: whitesmoke;
 }
-/*H1 INDEX*/
-.main__h1{
-    font-family: 'roboto', sans-serif;
+.main__h{
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     color: #2e765e;
+    margin-top: 50px;
 }
-/*/H1 INDEX*/
-
 
 /*H2 INDEX*/
-.main__h2{
-    font-family: 'Montserrat', sans-serif;
+.main__h{
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     color: #2e765e;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 /*/H2 INDEX*/
 
@@ -23,6 +21,7 @@
 .main__p{
     text-align: center;
     margin: 10px 100px 0 100px;
+    color: black;
 }
 /*/PINDEX*/
 

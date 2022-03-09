@@ -41,27 +41,27 @@ nav ul li:hover ul {
 /*/HEADER INDEX*/
 /*MAIN INDEX*/
 .main__fondo {
-  background-color: #71cfc4; }
+  background-color: whitesmoke; }
 
-/*H1 INDEX*/
-.main__h1 {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  color: #2e765e; }
-
-/*/H1 INDEX*/
-/*H2 INDEX*/
-.main__h2 {
-  font-family: 'Montserrat', sans-serif;
+.main__h {
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   color: #2e765e;
-  margin-top: 30px; }
+  margin-top: 50px; }
+
+/*H2 INDEX*/
+.main__h {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #2e765e;
+  margin-top: 50px; }
 
 /*/H2 INDEX*/
 /*PINDEX*/
 .main__p {
   text-align: center;
-  margin: 10px 100px 0 100px; }
+  margin: 10px 100px 0 100px;
+  color: black; }
 
 /*/PINDEX*/
 /*IFRAMES INDEX*/
@@ -152,8 +152,7 @@ section#footer {
   .main__p {
     margin: auto; }
   .formIndex {
-    width: 90%;
-    background-color: blueviolet; }
+    width: 90%; }
   .grillaImg {
     display: grid;
     grid-template-columns: 100%;
@@ -161,8 +160,7 @@ section#footer {
 
 @media only screen and (min-width: 768px) {
   .formIndex {
-    width: 90%;
-    background-color: black; }
+    width: 90%; }
   .grillaImg {
     display: grid;
     grid-template-columns: 50% 50%;
